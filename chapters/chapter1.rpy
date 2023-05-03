@@ -29,3 +29,16 @@ label ch1_begin:
     mc "Huh. I guess we {i}are{/i} living our lives like a gay dating sim."
     show flo laugh at bottom
     flo "We sure are!"
+    # past this point, all dialogue is new, written after starting to re-read Repeat
+    show flo neutral at bottom
+    mc "But like, I actually really like it."
+    mc "Spending time with you is the only thing that really makes me happy."
+    show flo blush at bottom
+    flo "W-wow... that means a lot..."
+    flo "I... I actually didn't know I was the {b}only{/b} thing that made you actually happy."
+    show flo uwu at bottom
+    flo "I promise to spend the rest of my life with you!"
+    mc "Heh, alright, take it easy pal."
+    show flo neutral at bottom
+    mc "I love ya and all, but just know that we still don't know each other {i}that{/i} well."
+    mc "We should fix that."
