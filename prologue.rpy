@@ -13,12 +13,14 @@ label prologue:
         "Not really.":
             jump prologue2
 label prologue2:
-    flo "Aw, I'm sorry to hear that."
-    flo "Here, let me help you up."
+    unk "Aw, I'm sorry to hear that."
+    unk "Here, let me help you up."
     "I grab the foxes hand, and he lifts me up."
     scene alleyway_night
+    play music "music/prologue.mp3"
     show flo happy at bottom
-    flo "So.... what's your name?"
+    mc "So... who are you?"
+    flo "The name's Flo. And you are?"
     mc "[mcname]. My name is [mcname]."
     show flo laugh at bottom
     flo "Gehehe..."
@@ -29,9 +31,7 @@ label prologue2:
     flo "I think your name is pretty cute, not gonna lie."
     mc "Oh jeez."
     scene black with dissolve
-    "I don't know what it was about him."
-    "He was so awful at flirting, and tried it on me as soon as we met... and yet..."
-    "I found myself falling for him."
+    stop music
     show logo_1 at center with dissolve
     pause 2.0
     show logo_2 at center
