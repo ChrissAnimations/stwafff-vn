@@ -7,6 +7,10 @@ define test = Character("Test", color="#000000")
 define unk = Character("???")
 define mc = Character("[mcname]", color="#ce0000")
 define flo = Character("Flo", color="#fe9343")
+define clem = Character("Clementine", color="#ffe600")
+define alan = Character("Alan", color="#96ff00")
+define jay = Character("Jay", color="#c0fdfd")
+define scar = Character("Scarlet", color="#e09cff")
 
 image flo angry = "images/flo/angry.png"
 image flo blush = "images/flo/blush.png"
@@ -115,12 +119,8 @@ label pronouns_selected:
     stop music
     scene black
     "..."
-    "Perhaps this time..."
-    "It'll work..."
-    "..."
-    "I can only hope."
-    "{font=font/Yuumanglyphs.ttf}THIS HAS TO WORK{vspace=30}YOU ARE A FRESH PUPPET{/font}{nw}"
-    jump prologue
+    jump what_next
+    #jump prologue
 
     # This ends the game.
     return
